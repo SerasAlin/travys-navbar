@@ -15,6 +15,7 @@ export default function SecondaryNav({ selectedTab }: SecondaryNavProps) {
         <DropdownNavButton
           key={item}
           title={item}
+          // just randomizing the options for the sake of the example
           options={index % 2 ? [] : ["option 1", "option 2"]}
         />
       ))}
